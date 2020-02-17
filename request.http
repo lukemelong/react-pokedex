@@ -1,0 +1,12 @@
+POST http://localhost:4000/api/users/login
+content-type: application/json
+
+{
+    "email": "email@email2.com",
+    "password": "password"
+}
+
+### 
+
+GET http://localhost:4000/api/pokemon/
+Authorization: hello
